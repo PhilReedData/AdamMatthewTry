@@ -31,4 +31,6 @@ The returned JSON code will show in the command window. There will be a `u` char
 
 ## Going further
 - You can edit the URL as per the [Adam Matthew API documentation](http://developers.amdigital.co.uk/API/Overview).
-- You can find better ways to use the reponses, such as exporting to CSV. You can do this by commenting the last five lines in the script, beginning with the `#` symbol (from `import csv` onwards).
+- You can find better ways to use the reponses, such as exporting to CSV. 
+  - You can do this by uncommenting the last five lines in the script, i.e. deleting the `#` symbol from the start of those lines (from `import csv` onwards), then running again. 
+  - A new output file will be created `mycsvfile.csv` which can be opened in Excel.
