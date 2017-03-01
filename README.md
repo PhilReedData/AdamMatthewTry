@@ -11,15 +11,21 @@ First attempt will use Python.
 ![Script](img/script.png)
 - Download these files to your computer.
 - Edit `read_test.py` and __replace the `apiKey` value__ from `XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX` to the correct value.
+  - The image above shows _Notepad_. A better text editor to use is _Notepad++_.
 - If you are familiar with using the command line, change to this directory and call `python read_test.py`
 - If not, and you are using Windows:
 
 Open Explorer at the __AdamMatthewTry__ directory.
+
 ![Explorer](img/shift-right-click.png)
+
 In the white space in the middle of the window (below the list of file names), hold Shift and right-click, choose __Open command window here__.
+
 ![Command window](img/command-window.png)
+
 In the command window, type `python read_test.py` and press Enter.
-![Command window response](img/command-window-resonse.png)
+
+![Command window response](img/command-window-response.png)
 
 The returned JSON code will show in the command window. There will be a `u` character before each string (piece of text), meaning that the text is Unicode not ASCII -- this will become important later.
 
